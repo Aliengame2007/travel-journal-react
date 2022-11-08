@@ -1,0 +1,93 @@
+:root {
+  --clr-special: hsla(0, 89%, 66%, 1);
+  --clr-neutral: hsla(0, 0%, 100%, 1);
+  --clr-link: hsla(254, 6%, 58%, 1);
+
+  --fs-primary: 0.75rem;
+  --fs-nav: 1rem;
+  --fs-heading: 1.5rem;
+
+  --fw-regular: 400;
+  --fw-semi-bold: 500;
+  --fw-bold: 700;
+}
+
+body {
+  margin: 0;
+  color: #2B283A;
+  font-family: 'Inter', sans-serif;
+}
+
+section {
+  width: 50%;
+  margin: 3rem auto;
+  display: flex;
+  gap: 1rem;
+}
+
+a {
+  color: var(--clr-link);
+  font-size: var(--fs-primary);
+}
+
+/* NavBar */
+
+header {
+  background-color: var(--clr-special);
+  padding: 1.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navbar--heading {
+  color: var(--clr-neutral);
+  font-size: var(--fs-nav);
+  font-weight: var(--fw-semi-bold);
+  letter-spacing: -0.075em;
+}
+
+/* Journey */
+
+.journey--img {
+  width: 8rem;
+  border-radius: 0.3125rem;
+}
+
+.journey--info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: -1rem;
+}
+
+.journey--maps-img {
+  width: 0.5rem;
+  margin-right: 0.25rem;
+}
+
+.journey--maps-text {
+  text-transform: uppercase;
+  font-size: var(--fs-primary);
+  letter-spacing: 0.16em;
+  margin-right: 1rem;
+}
+
+.journey--heading {
+  font-size: var(--fs-heading);
+  font-weight: var(--fw-bold);
+  margin-top: 0;
+}
+
+.journey--date {
+  font-size: var(--fs-primary);
+  font-weight: var(--fw-bold);
+  margin-top: -0.5rem;
+}
+
+.journey--description {
+  font-size: var(--fs-primary);
+  line-height: 150%;
+  margin-top: -0.5rem;
+}

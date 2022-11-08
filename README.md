@@ -1,2 +1,2 @@
-# travel-journal-react
- an amazing travel journal in react
+# travel-journal
+ an travel journal in React
